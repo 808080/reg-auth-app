@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "lib": ["DOM", "DOM.Iterable", "ES2018"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "Node",
+    "target": "ES2018",
+    "jsx": "preserve",
+    "allowJs": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["packages/**/src/**/*"],
+  "exclude": ["node_modules", "*/**/migrations"]
+}
