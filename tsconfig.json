@@ -14,7 +14,8 @@
     "baseUrl": ".",
     "removeComments": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "typeRoots": ["*/**/types/**/*.d.ts", "node_modules/@types"]
   },
   "include": ["packages/**/src/**/*"],
   "exclude": ["node_modules", "*/**/migrations"]

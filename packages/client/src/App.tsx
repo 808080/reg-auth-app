@@ -10,7 +10,6 @@ const App = () => {
   const dispatch = useTypedDispatch();
 
   useEffect(() => {
-    console.log('ue')
     if (user) return;
     dispatch(getUser());
   }, [user?.id]);
@@ -22,7 +21,7 @@ const App = () => {
       ) : (
         <>
           <main>
-            <RouterProvider router={router} fallbackElement={<App />} />
+            <RouterProvider router={router} />
           </main>
           <WarnModal />
         </>

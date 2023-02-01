@@ -1,7 +1,10 @@
 import styled from 'styled-components';
+import { Props } from '.';
 import { C_PRIMARY } from '../../styles/constants';
 
-export const ButtonStyled = styled.div<{ disabled?: boolean }>`
+type ButtonStyleProps = Pick<Props, 'disabled'>;
+
+export const ButtonStyled = styled.div<ButtonStyleProps>`
   display: flex;
   justify-content: center;
   margin: 30px 0;
