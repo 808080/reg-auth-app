@@ -1,5 +1,6 @@
 # reg-auth-app
 
+## Setup
 Dependencies:
 ```
 npm install
@@ -18,4 +19,9 @@ npm run start:server
 3. Run client:
 ```
 npm run start:client
+```
+
+## Tests
+```
+npm run test
 ```
